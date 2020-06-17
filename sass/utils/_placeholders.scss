@@ -18,3 +18,9 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+%flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
