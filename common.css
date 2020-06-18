@@ -221,6 +221,7 @@ img {
 
 .site-nav .current::after {
   content: "";
+  content: "";
   position: absolute;
   bottom: 0;
   display: block;

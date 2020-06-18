@@ -1,5 +1,6 @@
 .site-nav,
 .contacts-nav {
+  @extend %list-style;
   display: flex;
 
   font-weight: 500;
@@ -11,6 +12,7 @@
   margin-left: 86px;
 
   .link {
+    @extend %link-td-none;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -21,18 +23,18 @@
     &:focus {
       color: $accent-color;
     }
-    &.current {
-      color: $accent-color;
-      &::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        display: block;
-        width: 100%;
-        height: 4px;
-        background-color: $accent-color;
-        border-radius: 2px;
-      }
+  }
+  .current {
+    color: $accent-color;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      height: 4px;
+      background-color: $accent-color;
+      border-radius: 2px;
     }
   }
   .item {
@@ -47,6 +49,7 @@
   margin-left: auto;
 
   .link {
+    @extend %link-td-none;
     display: inline-flex;
     padding-top: 32px;
     padding-bottom: 32px;

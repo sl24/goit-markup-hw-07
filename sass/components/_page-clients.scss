@@ -1,0 +1,46 @@
+.clients {
+  @extend %section;
+
+  .section-title {
+    @extend %section-title;
+  }
+}
+
+.clients-list {
+  @extend %section-title;
+  padding: 0;
+  display: flex;
+
+  .item {
+    .compamies {
+      display: flex;
+    }
+
+    @extend %centered-flex;
+    width: 170px;
+    height: 90px;
+    border: 1px solid $icon-border-color;
+    border-radius: 4px;
+    transition: border-color 250ms $cubic;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    &:hover,
+    &:focus {
+      border-color: $accent-color;
+      cursor: pointer;
+    }
+  }
+}
+
+.button-icon {
+  fill: $icon-border-color;
+  transition: fill 250ms $cubic;
+
+  .clients-list .item:hover &,
+  .clients-list .item:focus & {
+    fill: $accent-color;
+  }
+}

@@ -1,0 +1,11 @@
+@mixin font(
+  $weight: 700,
+  $size: 14px,
+  $height: 1.14,
+  $text-transform: uppercase
+) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  text-transform: $text-transform;
+}
