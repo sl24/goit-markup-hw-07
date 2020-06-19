@@ -16,7 +16,7 @@
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    transition: color 250ms $cubic;
+    @include transition(color);
 
     color: $title-text-color;
     &:hover,
@@ -55,7 +55,7 @@
     padding-bottom: 32px;
     align-items: center;
     color: $primary-text-color;
-    transition: color 250ms $cubic;
+    @include transition(color);
     &:hover,
     &:focus {
       color: $accent-color;
@@ -68,7 +68,7 @@
   .button-icon {
     fill: $primary-text-color;
     margin-right: 10px;
-    transition: fill 250ms $cubic;
+    @include transition(fill);
   }
 }
 

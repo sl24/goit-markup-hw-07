@@ -25,6 +25,12 @@
   justify-content: center;
 }
 
+%inline-flex {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 %section {
   padding-top: 94px;
   padding-bottom: 94px;

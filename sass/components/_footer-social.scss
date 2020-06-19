@@ -13,7 +13,7 @@
   .icon-social {
     background-color: $copyright-line;
     fill: $title-text-white;
-    transition: background-color 250ms $cubic;
+    @include transition(background-color);
 
     &:hover,
     &:focus {

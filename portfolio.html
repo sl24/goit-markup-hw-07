@@ -8,8 +8,11 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -53,10 +56,10 @@
     </header>
 
     <main>
-      <section class="portfolio temporary-bgc">
+      <section class="portfolio">
         <div class="container">
-          <h1 class="visually-hidden">Примеры работ</h1>
-          <ul class="works list">
+          <h1>Примеры работ</h1>
+          <ul class="works">
             <li class="works-item">
               <button type="button" class="names">Все</button>
             </li>
@@ -73,9 +76,9 @@
               <button type="button" class="names">Маркетинг</button>
             </li>
           </ul>
-          <ul class="example list">
+          <ul class="example">
             <li class="example-item">
-              <a href="#" class="link">
+              <a href="#" class="example-link">
                 <div class="example-wrap">
                   <img
                     class="card"
@@ -97,7 +100,7 @@
               </a>
             </li>
             <li class="example-item">
-              <a href="#" class="link">
+              <a href="#" class="example-link">
                 <div class="example-wrap">
                   <img
                     class="card"
@@ -121,7 +124,7 @@
               </a>
             </li>
             <li class="example-item">
-              <a href="#" class="link">
+              <a href="#" class="example-link">
                 <div class="example-wrap">
                   <img
                     class="card"
@@ -143,7 +146,7 @@
               </a>
             </li>
             <li class="example-item">
-              <a href="#" class="link">
+              <a href="#" class="example-link">
                 <div class="example-wrap">
                   <img
                     class="card"
@@ -165,7 +168,7 @@
               </a>
             </li>
             <li class="example-item">
-              <a href="#" class="link">
+              <a href="#" class="example-link">
                 <div class="example-wrap">
                   <img
                     class="card"
@@ -187,7 +190,7 @@
               </a>
             </li>
             <li class="example-item">
-              <a href="#" class="link">
+              <a href="#" class="example-link">
                 <div class="example-wrap">
                   <img
                     class="card"
@@ -211,7 +214,7 @@
               </a>
             </li>
             <li class="example-item">
-              <a href="#" class="link">
+              <a href="#" class="example-link">
                 <div class="example-wrap">
                   <img
                     class="card"
@@ -235,7 +238,7 @@
               </a>
             </li>
             <li class="example-item">
-              <a href="#" class="link">
+              <a href="#" class="example-link">
                 <div class="example-wrap">
                   <img
                     class="card"
@@ -257,7 +260,7 @@
               </a>
             </li>
             <li class="example-item">
-              <a href="#" class="link">
+              <a href="#" class="example-link">
                 <div class="example-wrap">
                   <img
                     class="card"
@@ -288,7 +291,7 @@
       <div class="page-footer">
         <div class="footer-wrap">
           <div class="footer-item">
-            <a href="#" class="logo link"
+            <a href="#" class="logo"
               >Web <span class="logo-footer">Studio</span></a
             >
             <address>
@@ -296,7 +299,7 @@
                 <span>г. Киев, пр-т Леси Украинки, 26</span>
               </p>
               <div class="footer-nav-title">
-                <ul class="footer-nav list">
+                <ul class="footer-nav">
                   <li>
                     <a href="mailto:info@devstudio.com" class="address link"
                       >info@devstudio.com</a
@@ -313,7 +316,7 @@
           </div>
           <div class="footer-item">
             <p class="title-white join">присоединяйтесь</p>
-            <ul class="footer-social list">
+            <ul class="footer-social">
               <li class="social-item">
                 <a
                   class="icon-social instagram"
@@ -368,7 +371,7 @@
                   placeholder="Email"
                 />
               </div>
-              <a class="footer-button link" href=""
+              <a class="footer-button" href=""
                 >Подписаться
                 <svg class="button-icon delivery" width="20" height="20">
                   <use href="./images/sprite.svg#icon-delivery"></use>
@@ -377,11 +380,6 @@
             </div>
           </div>
         </div>
-        <p class="developed container">
-          <span class="copyright"
-            >2020 &#10072; Developed by GoIT Students</span
-          >
-        </p>
       </div>
     </footer>
   </body>
